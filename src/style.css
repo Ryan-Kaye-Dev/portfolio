@@ -288,6 +288,19 @@ h1 {
     grid-row: 3 / 4;
     grid-column: 1 / 2;
   }
+
+  #introduction {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+  }
+
+  #hero-img {
+    grid-column: 1 / 2;
+    grid-row: 3 / 4;
+    max-height: 100%;
+  }
 }
 
 @keyframes wave-animation {
