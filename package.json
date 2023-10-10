@@ -1,0 +1,31 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "My Portfolio Site",
+  "main": "index.js",
+  "mode": "development",
+  "scripts": {
+    "build": "webpack",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "webpack --watch",
+    "start": "webpack serve --open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ryan-Kaye-Dev/portfolio.git"
+  },
+  "author": "ryan-kaye-dev",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ryan-Kaye-Dev/portfolio/issues"
+  },
+  "homepage": "https://github.com/Ryan-Kaye-Dev/portfolio#readme",
+  "devDependencies": {
+    "css-loader": "^6.8.1",
+    "file-loader": "^6.2.0",
+    "style-loader": "^3.3.3",
+    "webpack": "^5.88.2",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^4.15.1"
+  }
+}
